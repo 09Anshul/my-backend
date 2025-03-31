@@ -1,0 +1,21 @@
+# Ignore node_modules (for Node.js projects)
+node_modules/
+
+# Ignore environment variables
+.env
+
+# Ignore build files
+dist/
+build/
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore dependency lock files (optional)
+package-lock.json
+yarn.lock
